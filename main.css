@@ -2,16 +2,26 @@
   background: url('Work_Background.jpg') no-repeat center center;
   position: fixed;
   width: 100%;
-  height: 350px; /*same height as jumbotron */
+  height: 300px; /*same height as jumbotron */
   top:0;
   left:0;
   z-index: -1;
 }
 
 .jumbotron {
-  height: 350px;
+  height: 300px;
   color: white;
-  text-shadow: #444 0 1px 1px;
+  /*text-shadow: #444 0 100px 100px;*/
+  text-shadow: 2px 2px 4px #000000;
+  text-transform: bold;
   background:transparent;
 }
 
+
+#main {
+  margin-top:100px;
+  position:relative;
+  background:#fff;
+  padding-left: 100px;
+  padding-right: 100px;
+}
